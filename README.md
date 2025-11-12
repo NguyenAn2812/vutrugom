@@ -1,55 +1,55 @@
-# 🌟 Ngoc Tho Vien Website Technical Plan Summary
+# 🌟 Tóm tắt Kế hoạch Kỹ thuật Website Ngọc Thọ Viên
 
-**Goal:** To clearly outline the required Core Features, Database (GIS Requirements), and Sitemap Essentials for the development team.
+**Mục tiêu:** Phác thảo rõ ràng các Tính năng Cốt lõi, Cơ sở dữ liệu (Yêu cầu GIS) và Sơ đồ Trang web cần thiết cho nhóm phát triển.
 
-## 1. Core Features
+## 1. Tính năng Cốt lõi
 
-The project focuses on integrating digital content, e-commerce, and advanced AI/GIS technology.
+Dự án tập trung vào việc tích hợp nội dung số, thương mại điện tử và công nghệ AI/GIS tiên tiến.
 
-### A. AI and Digital Knowledge Features
+### A. Tính năng AI và Kiến thức Số
 
-* **Pottery Recognition Tool (CV - Scan):** Allows users to upload or take photos of pottery products. The Computer Vision (CV) system analyzes the image and returns detailed information on the pottery Type/Name, Origin (craft village), Glaze/Material characteristics, and Reference Value[cite: 108, 109, 110].
-* **Symbol Decoder:** Analyzes patterns, glaze colors, shapes, and cultural philosophies of the ceramics, integrating AI for image recognition to look up the origin and symbolic meaning of the motifs[cite: 32, 86].
-* **24/7 AI Chatbot (Digital Knowledge Assistant):** Supports Q&A, lookups, and automated narration about the history, techniques, symbols, and tourism aspects of Vietnamese pottery[cite: 87].
+* **Công cụ Nhận dạng Gốm sứ (CV - Quét):** Cho phép người dùng tải lên hoặc chụp ảnh các sản phẩm gốm sứ. Hệ thống Thị giác Máy tính (CV) phân tích hình ảnh và trả về thông tin chi tiết về Loại/Tên gốm sứ, Nguồn gốc (làng nghề), Đặc điểm Men/Vật liệu và Giá trị Tham chiếu [trích dẫn: 108, 109, 110].
+* **Bộ Giải mã Biểu tượng:** Phân tích các hoa văn, màu men, hình dạng và triết lý văn hóa của gốm sứ, tích hợp AI để nhận dạng hình ảnh nhằm tra cứu nguồn gốc và ý nghĩa biểu tượng của các họa tiết [trích dẫn: 32, 86].
+* **Chatbot AI (Trợ lý Kiến thức Kỹ thuật số) 24/7:** Hỗ trợ hỏi đáp, tra cứu và thuyết minh tự động về lịch sử, kỹ thuật, biểu tượng và các khía cạnh du lịch của gốm sứ Việt Nam [trích dẫn: 87].
 
-### B. Digital Map and Information Features
+### B. Bản đồ Kỹ thuật số và Tính năng Thông tin
 
-* **"Vietnamese Pottery Journey" Map (GIS):** Displays the precise locations (Geographic Information System) of craft villages nationwide (e.g., Bat Trang, Phu Lang, Bien Hoa) as an interactive map[cite: 94, 95, 96].
-* **Multimedia Library:** Compiles 360-degree images, videos of the pottery-making process, and in-depth articles on preserving traditional pottery values[cite: 111, 112].
+* **Bản đồ "Hành trình Gốm sứ Việt Nam" (GIS):** Hiển thị vị trí chính xác (Hệ thống Thông tin Địa lý) của các làng nghề trên toàn quốc (ví dụ: Bát Tràng, Phù Lãng, Biên Hòa) dưới dạng bản đồ tương tác [trích dẫn: 94, 95, 96].
+* **Thư viện Đa phương tiện:** Tổng hợp hình ảnh 360 độ, video về quy trình làm gốm và các bài viết chuyên sâu về bảo tồn giá trị gốm sứ truyền thống [trích dẫn: 111, 112].
 
-### C. E-commerce & Community Features
+### C. Tính năng Thương mại Điện tử & Cộng đồng
 
-* **E-commerce Marketplace:** Allows producers/artisans to list and sell pottery products online, categorized by craft village and material. Supports secure payment and shipping[cite: 98, 99, 100, 101].
-* **Pottery Forum:** An online space for interaction, learning, organizing workshops, and virtual exhibitions among artisans, students, and enthusiasts[cite: 86].
+* **Chợ Thương mại Điện tử:** Cho phép nhà sản xuất/nghệ nhân niêm yết và bán sản phẩm gốm sứ trực tuyến, phân loại theo làng nghề và chất liệu. Hỗ trợ thanh toán và vận chuyển an toàn [trích dẫn: 98, 99, 100, 101].
+* **Diễn đàn Gốm sứ:** Một không gian trực tuyến để tương tác, học tập, tổ chức hội thảo và triển lãm ảo giữa các nghệ nhân, sinh viên và những người đam mê [trích dẫn: 86].
 
-## 2. Database Requirements (GIS System Focus)
+## 2. Yêu cầu Cơ sở dữ liệu (Tập trung vào Hệ thống GIS)
 
-The Database must handle both traditional and complex geographical data to support core features.
+Cơ sở dữ liệu phải xử lý cả dữ liệu địa lý truyền thống và phức tạp để hỗ trợ các tính năng cốt lõi.
 
-* **Data Types Required:**
-    * **Geographic Data (GIS):** Precise locations (Coordinates) of craft villages, tourist spots, and production addresses for display on the GIS Map[cite: 53].
-    * **Digital Knowledge Data:** Historical information, techniques, symbols, cultural philosophies, and training data for the AI/CV models.
-    * **E-commerce/Product Data:** Detailed product information, categorization, pricing, inventory, orders, payment, and shipping details.
-    * **User/Community Data:** Account information, forum posts, comments, and preference data (for AI suggestions).
-    * **Multimedia Data:** Storage metadata and paths for images, 360-degree videos, and 3D models.
-* **Recommended Technology:** **PostgreSQL with PostGIS Extension** (Recommended for handling geographical and spatial data).
+* **Các Loại Dữ liệu Yêu cầu:**
+* **Dữ liệu Địa lý (GIS):** Vị trí chính xác (Tọa độ) của các làng nghề, điểm du lịch và địa chỉ sản xuất để hiển thị trên Bản đồ GIS [trích dẫn: 53].
+* **Dữ liệu Kiến thức Số:** Thông tin lịch sử, kỹ thuật, ký hiệu, triết lý văn hóa và dữ liệu đào tạo cho các mô hình AI/CV.
+* **Dữ liệu Thương mại Điện tử/Sản phẩm:** Thông tin chi tiết về sản phẩm, phân loại, giá cả, hàng tồn kho, đơn đặt hàng, thanh toán và chi tiết vận chuyển.
+* **Dữ liệu Người dùng/Cộng đồng:** Thông tin tài khoản, bài đăng trên diễn đàn, bình luận và dữ liệu tùy chọn (cho các đề xuất AI).
+* **Dữ liệu đa phương tiện:** Siêu dữ liệu lưu trữ và đường dẫn cho hình ảnh, video 360 độ và mô hình 3D.
+* **Công nghệ được đề xuất:** **PostgreSQL với phần mở rộng PostGIS** (Được đề xuất để xử lý dữ liệu địa lý và không gian).
 
-## 3. Sitemap Essentials (Required Pages)
+## 3. Sơ đồ trang web (Các trang bắt buộc)
 
-Based on the platform structure and features, the website requires the following pages:
+Dựa trên cấu trúc và tính năng của nền tảng, trang web yêu cầu các trang sau:
 
-| Page Name (English/Vietnamese) | Page Type | Primary Function |
+| Tên trang (Tiếng Anh/Tiếng Việt) | Loại trang | Chức năng chính |
 | :--- | :--- | :--- |
-| **Home Page** (Trang Chủ) | Static | Entry point, general introduction, prominent CTAs. |
-| **Heritage Pottery** (Gốm Di sản) | Content/Library | Introduction to history, pottery lines, digital library, and 3D models[cite: 86]. |
-| **Symbol Decoder** (Giải Mã Biểu Tượng) | AI Interaction | Tool for image upload (CV Scan) and looking up the meaning/origin of motifs[cite: 86, 107]. |
-| **Pottery Journey** (Hành trình Gốm Việt) | Map (GIS) | Interactive map displaying craft villages and visitor addresses[cite: 87, 94]. |
-| **Artisans & Techniques** (Nghệ nhân & Kỹ thuật) | List/Detail | Artisan profiles, simulation of production processes, and sharing of craft secrets[cite: 86]. |
-| **Pottery Forum** (Diễn đàn Gốm) | Community | Space for discussion, exchange, and hosting virtual workshops/exhibitions[cite: 86]. |
-| **Marketplace** (Sàn Thương mại) | E-commerce | Product listings, detailed product pages, categorized by village/material[cite: 98, 99, 100]. |
-| **Cart & Checkout** (Giỏ hàng & Thanh toán) | E-commerce | Purchasing, payment, and shipping process[cite: 101]. |
-| **Contact/About Us** (Liên Hệ/Về Chúng Tôi) | Static | Contact information, vision, and mission of Ngoc Tho Vien. |
+| **Trang chủ** (Trang chủ) | Tĩnh | Điểm vào, giới thiệu chung, CTA nổi bật. |
+| **Gốm Di sản** (Gốm Di sản) | Nội dung/Thư viện | Giới thiệu về lịch sử, các dòng gốm, thư viện số và mô hình 3D[trích dẫn: 86]. |
+| **Giải Mã Biểu Tượng** (Giải Mã Biểu Tượng) | Tương tác AI | Công cụ tải ảnh (CV Scan) và tra cứu ý nghĩa/nguồn gốc họa tiết[trích dẫn: 86, 107]. |
+| **Hành trình Gốm Việt** | Bản đồ (GIS) | Bản đồ tương tác hiển thị các làng nghề và địa chỉ khách tham quan[trích dẫn: 87, 94]. |
+| **Nghệ nhân & Kỹ thuật** | Danh sách/Chi tiết | Hồ sơ nghệ nhân, mô phỏng quy trình sản xuất và chia sẻ bí quyết thủ công[trích dẫn: 86]. |
+| **Diễn đàn Gốm** | Cộng đồng | Không gian thảo luận, trao đổi và tổ chức hội thảo/triển lãm trực tuyến[trích dẫn: 86]. |
+| **Sàn Thương mại** | Thương mại điện tử | Danh sách sản phẩm, trang sản phẩm chi tiết, phân loại theo làng nghề/nguyên liệu[trích dẫn: 98, 99, 100]. |
+| **Giỏ hàng & Thanh toán** | Thương mại điện tử | Quy trình mua hàng, thanh toán và vận chuyển [trích dẫn: 101]. |
+| **Liên Hệ/Về Chúng Tôi** (Liên Hệ/Về Chúng Tôi) | Tĩnh | Thông tin liên hệ, tầm nhìn và sứ mệnh của Ngọc Thọ Viên. |
 
 ---
 
-**Next Step:** The requirements are clear. Would you like me to help **draft a specific role assignment matrix** for the team members (e.g., assigning AI, GIS, and E-commerce tasks to specific developers)?
+**Bước tiếp theo:** Các yêu cầu đã rõ ràng. Bạn có muốn tôi hỗ trợ **soạn thảo ma trận phân công vai trò cụ thể** cho các thành viên trong nhóm (ví dụ: phân công nhiệm vụ AI, GIS và Thương mại điện tử cho các nhà phát triển cụ thể) không?
