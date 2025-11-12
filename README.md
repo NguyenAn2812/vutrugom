@@ -29,7 +29,6 @@ Cơ sở dữ liệu phải xử lý cả dữ liệu địa lý truyền thốn
 * **Các Loại Dữ liệu Yêu cầu:**
 * **Dữ liệu Địa lý (GIS):** Vị trí chính xác (Tọa độ) của các làng nghề, điểm du lịch và địa chỉ sản xuất để hiển thị trên Bản đồ GIS [trích dẫn: 53].
 * **Dữ liệu Kiến thức Số:** Thông tin lịch sử, kỹ thuật, ký hiệu, triết lý văn hóa và dữ liệu đào tạo cho các mô hình AI/CV.
-* **Dữ liệu Thương mại Điện tử/Sản phẩm:** Thông tin chi tiết về sản phẩm, phân loại, giá cả, hàng tồn kho, đơn đặt hàng, thanh toán và chi tiết vận chuyển.
 * **Dữ liệu Người dùng/Cộng đồng:** Thông tin tài khoản, bài đăng trên diễn đàn, bình luận và dữ liệu tùy chọn (cho các đề xuất AI).
 * **Dữ liệu đa phương tiện:** Siêu dữ liệu lưu trữ và đường dẫn cho hình ảnh, video 360 độ và mô hình 3D.
 * **Công nghệ được đề xuất:** **PostgreSQL với phần mở rộng PostGIS** (Được đề xuất để xử lý dữ liệu địa lý và không gian).
