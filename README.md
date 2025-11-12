@@ -52,4 +52,3 @@ Dựa trên cấu trúc và tính năng của nền tảng, trang web yêu cầu
 
 ---
 
-**Bước tiếp theo:** Các yêu cầu đã rõ ràng. Bạn có muốn tôi hỗ trợ **soạn thảo ma trận phân công vai trò cụ thể** cho các thành viên trong nhóm (ví dụ: phân công nhiệm vụ AI, GIS và Thương mại điện tử cho các nhà phát triển cụ thể) không?
