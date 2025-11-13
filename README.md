@@ -1,4 +1,4 @@
-# 🌟 Tóm tắt Kế hoạch Kỹ thuật Website Ngọc Thọ Viên
+# 🌟 Tóm tắt Kế hoạch Kỹ thuật Website Vũ Trụ GỐm
 
 **Mục tiêu:** Phác thảo rõ ràng các Tính năng Cốt lõi, Cơ sở dữ liệu (Yêu cầu GIS) và Sơ đồ Trang web cần thiết cho nhóm phát triển.
 
